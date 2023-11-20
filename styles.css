@@ -48,7 +48,8 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-. a {
+
+a {
     text-decoration: none;
 }
 
