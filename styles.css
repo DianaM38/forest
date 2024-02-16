@@ -48,8 +48,13 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-
 a {
-    text-decoration: none;
-}
+    color: #ffffff; /* Cambia el color del texto del enlace, por ejemplo, a negro (#000) */
+    text-decoration: none; /* Elimina el subrayado por defecto */
+  }
+
+a:hover {
+    /* Estilos adicionales cuando el enlace está siendo señalado con el mouse, si lo deseas */
+    text-decoration: underline; /* Puedes agregar subrayado al pasar el mouse si lo prefieres */
+  }
 
